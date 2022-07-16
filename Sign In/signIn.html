@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: linear-gradient(to right,white,rgb(60,100,136));
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 1px;
+        }
+
+        .signin-container{
+            width: 65%;
+            height: 650px;
+            display: flex;
+            flex-direction: row;
+            background-color: whitesmoke;
+            margin: 50px auto;
+        }
+
+        .side-container{
+            width: 70%;
+            height: 100%;
+        }
+
+        .side-container img{
+            height: 100%;
+            width: 100%;
+        }
+
+        .form-container{
+            width: 60%;
+            height: 100%;
+            padding-top: 100px;
+        }
+
+        .form-container h1{
+            margin-left: 60px;
+            font-size: 3rem;
+            text-shadow: 2px 2px 5px rgb(60,100,136);
+            font-weight: 900;
+        }
+
+        .form-container form{
+            margin-left: 60px;
+            margin-top: 100px;
+        }
+
+        .credentials{
+            border-style: none;
+            border-bottom: 2px solid rgb(128, 128, 128,0.5);
+            background-color: whitesmoke;
+            height: 30px;
+            width: 60%;
+            margin-bottom: 30px;
+            padding: 10px;
+            font-size: 1.1rem;
+        }
+
+        #rememberme{
+            height: 15px;
+            width: 15px;
+        }
+
+        .form-container label{
+            margin-left: 5px;
+            position: absolute;
+            margin-left: 6px;
+        }
+
+        .form-container button{
+            margin-top: 40px;
+            height: 60px;
+            width: 60%;
+            text-align: center;
+            padding: 10px;
+            font-size: 1.4rem;
+            background-color: rgb(60,100,136);
+            color: whitesmoke;
+            box-shadow: 2px 2px 5px rgb(73, 71, 75);
+            border-style: none;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="signin-container">
+        <div class="side-container">
+            <img src="r.jfif" alt="Login Image">
+        </div>
+        <div class="form-container">
+            <h1>Login</h1>
+            <form>
+                <input type="text" class="credentials" placeholder="User Name"><br>
+                <input type="password" class="credentials" placeholder="Password"><br>
+                <input type="checkbox" id="rememberme" name="rememberme">
+                <label for="rememberme">Remember Me</label><br>
+                <button>Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
