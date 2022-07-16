@@ -13,6 +13,7 @@
             background-image: linear-gradient(to right,white,rgb(60,100,136));
             font-family: 'Montserrat', sans-serif;
             letter-spacing: 1px;
+            font-weight: 700;
         }
 
         .signin-container{
@@ -43,7 +44,8 @@
         .form-container h1{
             margin-left: 60px;
             font-size: 3rem;
-            text-shadow: 2px 2px 5px rgb(60,100,136);
+            color: rgb(60,100,136);
+            /* text-shadow: 2px 2px 5px rgb(60,100,136); */
             font-weight: 900;
         }
 
@@ -97,8 +99,8 @@
         <div class="form-container">
             <h1>Login</h1>
             <form>
-                <input type="text" class="credentials" placeholder="User Name"><br>
-                <input type="password" class="credentials" placeholder="Password"><br>
+                <input type="text" class="credentials" placeholder="User Name" required><br>
+                <input type="password" class="credentials" placeholder="Password" required auto><br>
                 <input type="checkbox" id="rememberme" name="rememberme">
                 <label for="rememberme">Remember Me</label><br>
                 <button>Login</button>
