@@ -5,16 +5,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("new.webp");
+    background-image: url("feedback-background.jfif");
     background-repeat: no-repeat;
     background-size: cover;
+    letter-spacing: 2px;
 }
 
 .feedback-container{
-    background-image: linear-gradient(225deg,rgb(60,100,136),rgb(166, 208, 244));
+    background-image: linear-gradient(225deg,#610C63,#f18bf3);
     padding: 20px 200px;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px #3F4E4F;
+    box-shadow: 5px 5px 10px black;
 }
 
 .feedback-container h1{
@@ -28,30 +29,33 @@ body{
 
 .form-container input{
     border-style: none;
-    background-color: whitesmoke;
+    background-color: lightgray;
     margin-bottom: 20px;
     height: 30px;
     width: 70%;
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 1.1rem;
+    box-shadow: 4px 4px 5px #3F4E4F;
 }
 
 .form-container textarea{
     width: 70%;
     border-style: none;
-    background-color: whitesmoke;
+    background-color: lightgray;
     margin-bottom: 20px;
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 1.1rem;
+    box-shadow: 4px 4px 5px #3F4E4F;
 }
 
 .form-container button{
-    background-color: rgb(60,100,136);
+    background-color: #610C63;
     color: whitesmoke;
     font-size: 1.3rem;
     padding: 10px 20px;
     border-style: none;
     border-radius: 5px;
+    box-shadow: 4px 4px 5px #3F4E4F;
 }
