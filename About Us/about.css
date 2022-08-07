@@ -1,11 +1,7 @@
 body{
-    font-family: 'Montserrat', sans-serif;
-    width: 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    letter-spacing: 2px;
-    background-color: #1B2430;
     margin: 0;
+    background-color: #1B2430;
+    padding-top: 120px;
 }
 
 /* Navbar */
@@ -20,7 +16,6 @@ body{
     font-weight: 700;
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     z-index: 10;
 }
@@ -39,13 +34,12 @@ body{
 
 #navbar-items ul{
     list-style: none;
-    
 }
 
 #navbar-items ul li{
     display: inline-block;
     margin: 0 20px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding: 10px;
     color: whitesmoke;
 }
@@ -72,74 +66,73 @@ body{
     background-color: #1B2430;
     border-radius: 10px;
     color: whitesmoke;
-    
 }
 
-/* Feedback Form */
-#feedback-title{
+/* About Us CSS */
+#title{
     text-align: center;
-    margin-top: 150px;
     margin-bottom: 50px;
     color: whitesmoke;
     font-size: 3rem;
 }
 
-.feedback-container{
+.about-container{
     background-color: #E8F9FD;
     padding: 60px 50px;
-    width: 50%;
+    width: 70%;
     margin: auto;
     border-radius: 20px;
     box-shadow: 5px 5px 10px black;
     margin-bottom: 100px;
 }
 
-.feedback-container h1{
-    color: rgb(60,100,136);
-    font-size: 4rem;
+/* Icons CSS */
+.icons-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px 80px;
 }
 
-.form-container{
-    padding-left: 50px;
-}
-
-.form-container input{
-    border-style: none;
-    border-bottom: 2px solid rgb(128, 128, 128,0.5);
-    background-color: #E8F9FD;
-    height: 30px;
-    width: 60%;
+.icons{
+    /* background-color: rgb(60,100,136); */
+    height: 100px;
+    padding: 20px 30px;
+    width: 280px;
     margin-bottom: 30px;
-    padding: 10px;
-    font-size: 1.1rem;
+    transition: all 300ms ease-in-out;
 }
 
-.form-container input:focus{
-    outline: none;
+.icons:hover{
+    transform: scale(1.1,1.1);
+    background-color: whitesmoke;
+    border-radius: 20px;
 }
 
-.form-container textarea{
-    border-style: none;
-    border-bottom: 2px solid rgb(128, 128, 128,0.5);
-    background-color: #E8F9FD;
-    width: 60%;
-    margin-bottom: 30px;
-    padding: 10px;
-    font-size: 1.1rem;
+.icons-title{
+    position: relative;
+    bottom: 10px;
 }
 
-.form-container textarea:focus{
-    outline: none;
-}
-
-.form-container button{
-    background-color: #1B2430;
-    color: whitesmoke;
+.icons-title h3{
     font-size: 1.3rem;
-    padding: 10px 20px;
-    border-style: none;
-    border-radius: 5px;
-    box-shadow: 4px 4px 5px #3F4E4F;
+    font-weight: 900;
+    color: grey;
+}
+
+.icons-title h1{
+    font-size: 2rem;
+    margin-top: -10px;
+}
+
+.icons img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    right: 20px;
 }
 
 /* *********** CSS for Footer ******************** */

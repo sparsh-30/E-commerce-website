@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../favicon.png">
-    <title>Feedback</title>
-    <!-- Linking Google Fonts -->
+    <title>Sign In Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <!-- Linking External CSS file -->
-    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -27,23 +25,28 @@
                 </ul>
             </div>
             <div id="buttons-container">
-                <a href="../Sign In/signin.html"><button>Sign In</button></a>
-                <a href="../Sign Up/signup.html"><button>Sign Up</button></a>
+                <a href="../Sign In/signIn.html"><button>Sign In</button></a>
+                <a href="#"><button>Sign Up</button></a>
             </div>
         </navbar>
         <div id="bgImage"></div>
     </header>
 
-    <!-- Feedback Form -->
-    <h1 id="feedback-title">Feedback Form</h1>
-    <div class="feedback-container">
+    <!-- Signin Form -->
+    <div class="signin-container">
+        <div class="side-container">
+            <img src="background-image.jfif" alt="Login Image">
+        </div>
         <div class="form-container">
-            <form>
-                <input type="text" placeholder="Username"><br>
-                <input type="email" placeholder="Email Address"><br>
-                <input type="text" placeholder="Subject"><br>
-                <textarea cols="30" rows="10" placeholder="Enter the message..."></textarea><br>
-                <button onclick="alert('Your responses have been submitted successfully!!')">Submit</button>
+            <h1>Sign Up</h1>
+            <form method="get">
+                <input type="text" class="credentials" placeholder="User Name" required><br>
+                <input type="email" class="credentials" placeholder="Email Address" required><br>
+                <input type="password" class="credentials" placeholder="Password" required auto><br>
+                <input type="password" class="credentials" placeholder="Confirm Password" required auto><br>
+                <input type="checkbox" id="rememberme" name="rememberme">
+                <label for="rememberme">Remember Me</label><br>
+                <button id="btn" type="submit" onclick="alert('Your responses have been submitted successfully!!')">Sign Up</button>
             </form>
         </div>
     </div>
@@ -54,5 +57,6 @@
             copyright @2022
         </div>
     </footer>
+    <script src="signup.js"></script>
 </body>
 </html>
