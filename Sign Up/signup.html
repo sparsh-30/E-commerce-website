@@ -34,19 +34,16 @@
 
     <!-- Signin Form -->
     <div class="signin-container">
-        <div class="side-container">
-            <img src="background-image.jfif" alt="Login Image">
-        </div>
         <div class="form-container">
             <h1>Sign Up</h1>
             <form method="get">
-                <input type="text" class="credentials" placeholder="User Name" required><br>
-                <input type="email" class="credentials" placeholder="Email Address" required><br>
-                <input type="password" class="credentials" placeholder="Password" required auto><br>
-                <input type="password" class="credentials" placeholder="Confirm Password" required auto><br>
-                <input type="checkbox" id="rememberme" name="rememberme">
-                <label for="rememberme">Remember Me</label><br>
-                <button id="btn" type="submit" onclick="alert('Your responses have been submitted successfully!!')">Sign Up</button>
+                <input type="text" id="username" class="credentials" placeholder="User Name" required autocomplete="off"><br>
+                <input type="email" class="credentials" placeholder="Email Address" required autocomplete="off"><br>
+                <input type="password" id="password" class="credentials" placeholder="Password" required autocomplete="off" auto><br>
+                <input type="password" id="cpassword" class="credentials" placeholder="Confirm Password" required autocomplete="off" auto><br>
+                <!-- <input type="checkbox" id="rememberme" name="rememberme">
+                <label for="rememberme">Remember Me</label><br> -->
+                <button id="btn" type="submit">Sign Up</button>
             </form>
         </div>
     </div>

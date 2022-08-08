@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1B2430;
+    /* background-color: white; */
+    margin-top: 60px;
+}
+
+/* Navbar */
+#navbar-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    /* background-color: rgb(60,100,136); */
+    background-color: #1B2430;
+    padding: 0px 50px;
+    color: whitesmoke;
+    font-weight: 700;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    height: fit-content;
+}
+
+#logo{
+    font-size: 2rem;
+    margin: 15px 0;
+}
+
+#navbar-items{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    margin-top: 5px;
+}
+
+#navbar-items ul{
+    list-style: none;
+}
+
+#navbar-items ul li{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+#buttons-container{
+    /* padding-top: 10px; */
+    /* margin: 10px 0; */
+    margin-right: 0px;
+}
+
+#buttons-container button{
+    margin: 0 4px;
+    height: 40px;
+    width: 90px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-weight: 700;
+    color: #1B2430;
+    font-size: 1.1rem;
+}
+
+#navbar-items ul li:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: #1B2430;
+    font-weight: 700;
+}
+
+#bgImage{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/bg.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

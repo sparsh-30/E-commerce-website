@@ -1,5 +1,9 @@
 body{
-    background-image: linear-gradient(to right,white,rgb(60,100,136));
+    /* background-image: linear-gradient(to right,white,rgb(60,100,136)); */
+    /* background-image: linear-gradient(to right,#acacac,#1B2430); */
+    background-image: url("new1.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
     font-weight: 700;
@@ -12,7 +16,9 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(60,100,136);
+    /* background-color: rgb(60,100,136); */
+    /* background-color: #002B5B; */
+    background-color: #1B2430;
     padding: 0px 50px;
     color: whitesmoke;
     font-weight: 700;
@@ -59,30 +65,37 @@ body{
     width: 90px;
     border-style: none;
     border-radius: 10px;
-    background-color: #1B2430;
+    background-color: whitesmoke;
     font-weight: 700;
-    color: whitesmoke;
+    color: #1B2430;
     font-size: 1.1rem;
 }
 
 #navbar-items ul li:hover{
-    background-color: #1B2430;
+    background-color: whitesmoke;
     border-radius: 10px;
-    color: whitesmoke;
+    color: #1B2430;
+    font-weight: 700;
 }
 
 
 /* Signin Form */
 .signin-container{
-    width: 75%;
-    height: 650px;
+    width: 50%;
+    /* height: 650px; */
+    height: fit-content;
     display: flex;
     flex-direction: row;
     background-color: whitesmoke;
     margin: 150px auto;
+    text-align: center;
+    /* background-image: rgba(255,255,255,0.1); */
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-bottom: 80px;
+    box-shadow: 5px 5px 20px 10px black;
 }
 
-.side-container{
+/* .side-container{
     width: 70%;
     height: 100%;
 }
@@ -90,18 +103,19 @@ body{
 .side-container img{
     height: 100%;
     width: 100%;
-}
+} */
 
 .form-container{
-    width: 60%;
+    width: 100%;
     height: 100%;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .form-container h1{
     margin-left: 60px;
-    font-size: 3rem;
-    color: rgb(60,100,136);
+    font-size: 4rem;
+    /* color: rgb(60,100,136); */
+    color: #1B2430;
     font-weight: 900;
 }
 
@@ -117,8 +131,9 @@ body{
     height: 30px;
     width: 60%;
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 12px;
     font-size: 1.1rem;
+    border-radius: 10px;
 }
 
 .credentials:focus{
@@ -128,6 +143,8 @@ body{
 #rememberme{
     height: 15px;
     width: 15px;
+    /* position: relative;
+    right: 100px; */
 }
 
 .form-container label{
@@ -143,7 +160,9 @@ body{
     text-align: center;
     padding: 10px;
     font-size: 1.4rem;
-    background-color: rgb(60,100,136);
+    /* background-color: rgb(60,100,136); */
+    /* background-color: #002B5B; */
+    background-color: #1B2430;
     color: whitesmoke;
     box-shadow: 2px 2px 5px rgb(73, 71, 75);
     border-style: none;
@@ -152,7 +171,9 @@ body{
 
 /* *********** CSS for Footer ******************** */
 .footer-div{
-    background-color: rgb(60,100,136);
+    /* background-color: rgb(60,100,136); */
+    /* background-color: #002B5B; */
+    background-color: #1B2430;
     color: whitesmoke;
     padding: 30px;
     text-align: center;
