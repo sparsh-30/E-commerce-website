@@ -4,8 +4,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     letter-spacing: 2px;
-    background-color: #1B2430;
     margin: 0;
+    /* background-image: url("new3.webp");
+    background-size: 100% 100%; */
+    background-image: linear-gradient(45deg,#171717 50%,whitesmoke 40%);
+    z-index: -1;
 }
 
 /* Navbar */
@@ -14,7 +17,7 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(60,100,136);
+    background-color: #171717;
     padding: 0px 50px;
     color: whitesmoke;
     font-weight: 700;
@@ -62,26 +65,27 @@ body{
     width: 90px;
     border-style: none;
     border-radius: 10px;
-    background-color: #1B2430;
+    background-color: whitesmoke;
     font-weight: 700;
-    color: whitesmoke;
+    color: #171717;
     font-size: 1.1rem;
 }
 
 #navbar-items ul li:hover{
-    background-color: #1B2430;
+    background-color: whitesmoke;
     border-radius: 10px;
-    color: whitesmoke;
-    
+    color: #171717;
+    border-radius: 5px;
 }
 
 /* Feedback Form */
 #feedback-title{
     text-align: center;
     margin-top: 150px;
-    margin-bottom: 50px;
-    color: whitesmoke;
-    font-size: 3rem;
+    margin-bottom: 10px;
+    color: black;
+    text-shadow: 3px 3px 3px black;
+    font-size: 3.5rem;
 }
 
 .feedback-container{
@@ -92,6 +96,9 @@ body{
     border-radius: 20px;
     box-shadow: 5px 5px 10px black;
     margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 5px 5px 20px 10px black;
+    text-align: center;
 }
 
 .feedback-container h1{
@@ -106,12 +113,13 @@ body{
 .form-container input{
     border-style: none;
     border-bottom: 2px solid rgb(128, 128, 128,0.5);
-    background-color: #E8F9FD;
+    /* background-color: #E8F9FD; */
     height: 30px;
-    width: 60%;
+    width: 75%;
     margin-bottom: 30px;
     padding: 10px;
     font-size: 1.1rem;
+    border-radius: 5px;
 }
 
 .form-container input:focus{
@@ -121,11 +129,12 @@ body{
 .form-container textarea{
     border-style: none;
     border-bottom: 2px solid rgb(128, 128, 128,0.5);
-    background-color: #E8F9FD;
-    width: 60%;
+    /* background-color: #E8F9FD; */
+    width: 75%;
     margin-bottom: 30px;
     padding: 10px;
     font-size: 1.1rem;
+    border-radius: 5px;
 }
 
 .form-container textarea:focus{
@@ -133,18 +142,19 @@ body{
 }
 
 .form-container button{
-    background-color: #1B2430;
+    background-color: #171717;
     color: whitesmoke;
     font-size: 1.3rem;
     padding: 10px 20px;
     border-style: none;
     border-radius: 5px;
     box-shadow: 4px 4px 5px #3F4E4F;
+    width: 78%;
 }
 
 /* *********** CSS for Footer ******************** */
 .footer-div{
-    background-color: rgb(60,100,136);
+    background-color: #171717;
     color: whitesmoke;
     padding: 30px;
     text-align: center;

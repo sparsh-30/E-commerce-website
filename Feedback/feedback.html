@@ -23,7 +23,7 @@
                     <a href="../Home/home.html"><li>Home</li></a>
                     <a href="#"><li>Products</li></a>
                     <a href="../About Us/about.html"><li>About Us</li></a>
-                    <a href="#"><li>Contact Us</li></a>
+                    <a href="../Contact Us/contact.html"><li>Contact Us</li></a>
                 </ul>
             </div>
             <div id="buttons-container">
@@ -39,11 +39,11 @@
     <div class="feedback-container">
         <div class="form-container">
             <form>
-                <input type="text" placeholder="Username"><br>
+                <input type="text" id="username" placeholder="Username"><br>
                 <input type="email" placeholder="Email Address"><br>
-                <input type="text" placeholder="Subject"><br>
-                <textarea cols="30" rows="10" placeholder="Enter the message..."></textarea><br>
-                <button onclick="alert('Your responses have been submitted successfully!!')">Submit</button>
+                <input type="text" id="subject" placeholder="Subject"><br>
+                <textarea cols="30" rows="10" id="message" placeholder="Enter the message..."></textarea><br>
+                <button id="btn">Submit</button>
             </form>
         </div>
     </div>
@@ -54,5 +54,7 @@
             copyright @2022
         </div>
     </footer>
+
+    <script src="feedback.js"></script>
 </body>
 </html>

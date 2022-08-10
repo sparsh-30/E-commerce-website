@@ -18,4 +18,5 @@ btn.addEventListener("click",(e) => {
         alert("Password does not match!!");
         e.preventDefault();
     }
+    alert("Your responses have been submitted successully!!");
 })
